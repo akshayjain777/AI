@@ -1,0 +1,16 @@
+git fetch/git pull
+git checkout dev
+git add .
+git status
+git commit -m "first commit"
+git push origin dev
+
+Git commands
+
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:scotch-io/my-new-project.git
+git push -u -f origin master
+
+https://github.com/akshayjain777/TSAI/blob/master/S8

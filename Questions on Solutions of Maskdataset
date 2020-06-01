@@ -1,0 +1,46 @@
+Questions:
+Normal distribution Curve
+from scipy.stats import norm
+plt.plot(df.Col1,norm.pdf(df.Col1,0,1))
+
+Where ;
+mean=0
+Standard deviation=1
+
+
+Difference between
+KFold
+StratifiedKFOLD
+RandomisedKFOLD
+
+Assumptions for Pearson r correlation and Spearsman rank correlation
+
+Assumptions of Pearson r correlation:
+For the Pearson r correlation, both variables should be normally distributed 
+(normally distributed variables have a bell-shaped curve).  Other assumptions
+include linearity and homoscedasticity.  Linearity assumes a straight line relationship 
+between each of the two variables and homoscedasticity assumes that data is equally distributed 
+about the regression line.
+
+Assumptions of Spearsman correlation coeffiecient:
+Spearman rank correlation: Spearman rank correlation is a non-parametric test that is used to measure
+the degree of association between two variables.  The Spearman rank correlation test does not carry
+any assumptions about the distribution of the data and is the appropriate correlation analysis when
+the variables are measured on a scale that is at least ordinal.
+
+Note:
+The assumptions of the Spearman correlation are that data must be at least ordinal and 
+the scores on one variable must be monotonically related to the other variable.
+
+
+What is the significance of spearman coeffiecient
+
+
+How to select parameters for Random Forest
+
+T-test use
+
+WHy KFold if we are already using GridSearchCV
+
+Differnec b/w variance and covarinace
+
